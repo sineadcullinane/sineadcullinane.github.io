@@ -3,6 +3,7 @@ body {
     background-image: url("http://i.imgur.com/nj9EYTx.jpg")
 }
 main {
+    margin: 0 0 0 100px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -10,29 +11,35 @@ main {
     background-color: lightgray;
     width: 450px;
 }
-h1 {font-size: 2em;
+h1 {
+  margin: 0px;
+  padding-bottom: 5px;
+  padding-left: 110px;
+  font-size: 2em;
   font-family: Courier New, Courier, monospace;
   color: white;
   border-radius: 0px;
-  /* background-color: black; */
-  padding: 10px;
-  margin: 0px;
 }
-h2 {font-size: 1.2em;
+h2 {
+  font-size: 1.2em;
   font-family: Courier New, Courier, monospace;
   padding-left: 1em;
 }
-p {font-size: 1.05em;  
+p {
+ font-size: 1.05em;  
  font-family: Courier New, Courier, monospace;
+ padding-right: 1em;
  padding-left: 4em;
  line-height: 25px;
 }
-a:link, a:visited {font-size: 1.05em;  
+a:link, a:visited {
+                 font-size: 1.05em;  
                  font-family: Courier New, Courier, monospace;
                  padding-left: 4em;
                  line-height: 25px;
                  color: #2F30C0;
                  text-decoration: none;
 }
-a:hover, a:active {color: mediumpurple;
+a:hover, a:active {
+                 color: mediumpurple;
 }
