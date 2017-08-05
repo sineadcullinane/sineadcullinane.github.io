@@ -1,6 +1,10 @@
-body {
-    background-color: #9370db;
-    background-image: url("http://i.imgur.com/nj9EYTx.jpg");
+html { 
+  border-top: 60px solid white;
+  background: url("http://i.imgur.com/nj9EYTx.jpg") no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header {
   position: fixed;
