@@ -1,11 +1,3 @@
-html { 
-  border-top: 60px solid white;
-  background: url("http://i.imgur.com/nj9EYTx.jpg") no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 header {
   position: fixed;
   top: 0;
@@ -19,6 +11,15 @@ header {
   line-height: 60px;
   font-size: 2em;
   color: #383838
+}
+body {
+      border-top: 50px solid transparent;
+      position: relative;
+      background-image: url("http://i.imgur.com/nj9EYTx.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 .spacing {
   width: 100%;
