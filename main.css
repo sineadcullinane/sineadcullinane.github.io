@@ -15,10 +15,7 @@ header {
 body {
       border-top: 50px solid transparent;
       position: relative;
-      background-image: url("http://i.imgur.com/nj9EYTx.jpg");
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-image: url("./Images/background-image.jpg");
       background-size: cover;
 }
 .spacing {
